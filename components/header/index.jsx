@@ -8,7 +8,7 @@ const Header = () => {
     return (
     <div className={Styles.container}>
         <div className={Styles.Logotipo}>
-        <Image src={Logo} alt="Logo" width={150} height={100} />
+        <Image src={Logo} alt="Logo" width={150} height={100}/>
         </div>
         <div className={Styles.menu}>
             <Link href="/">Home</Link>
