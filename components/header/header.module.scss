@@ -1,7 +1,7 @@
 @import "/styles/mixins/colors.scss";
 
 .container {
-  padding: 34px 180px;
+  padding: 20px 170px;
     width: 100%;
     background-color: $purple-color;
     border-bottom:0.5px solid $grey-color;
@@ -20,7 +20,7 @@
   }
 
   .button {
-    padding: 15px 50px;
+    padding: 10px 40px;
     border-radius: 5px;
     font-size: 16px;
     font-weight: bold;
