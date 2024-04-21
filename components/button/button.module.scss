@@ -17,6 +17,15 @@
     background-color: $white-color;
     color: $black-color;
     }
+
+    &.full {
+      padding: 21px;
+      width: 100%;
+      font-size: 21px;
+      font-weight: 600;
+      color: $white-color;
+      background-color: $light-blue-color;
+    }
   }
 
  
