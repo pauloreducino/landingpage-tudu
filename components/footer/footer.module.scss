@@ -1,0 +1,36 @@
+@import "/styles/mixins/colors.scss";
+@import "/styles/mixins/padding.scss";
+
+.container {
+    @include Padding; 
+    padding-top: 72px;
+    background-color: $purple3-color;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+  
+
+.column {
+
+    margin: 0;
+
+    .title {
+        font-size: 29px;
+        color: $white-color;
+        margin: 0;
+    }
+
+   h5 {
+    font-size: 24px;
+    color: $green-color;
+   }
+
+   p {
+    font-size: 22px;
+   }
+}
+
+
+// PAREI EM 41:06 DE VIDEO AULA - ADICIONANDO FOOTER
+

@@ -4,16 +4,24 @@ import Styles from "./Home.module.scss"
 import Welcome from "@/components/Welcome";
 import Features from "@/components/features";
 import Contato from "@/components/contato";
+import Footer from "@/components/footer";
 
 export default function Home() {
- return (
- <div className={Styles.container}>
-    <Header />
-    <main>
-    <Welcome />
-    <Features />
-    <Contato />
-    </main>
- </div>
- );
+   return (
+      <div className={Styles.container}>
+         <header>
+            <Header />
+         </header>
+
+         <main>
+            <Welcome />
+            <Features />
+            <Contato />
+         </main>
+
+         <footer>
+            <Footer />
+         </footer>
+      </div>
+   );
 }

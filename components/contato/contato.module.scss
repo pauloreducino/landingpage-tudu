@@ -6,8 +6,12 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: flex-start;
-    justify-content: space-between;
-    gap: 150px;
+    justify-content: space-between;    
+    gap: 15px 3rem;
+    background-image: url("/images/fundoWelcome.svg");
+    background-repeat: no-repeat;
+    background-size: cover; //rever
+    margin-bottom: 10rem;
 }
 
 .texts {
@@ -47,5 +51,19 @@
     form {
         display: grid;
         gap: 23px;
+    }
+}
+
+.footer {
+    padding: 0 7rem ;
+    font-size: 20px;
+    grid-column-start: 2;
+    text-align: center;
+    line-height: 0 2rem;
+    color: $grey-color;
+
+    span {
+        color: $white-color;
+        cursor: pointer;
     }
 }

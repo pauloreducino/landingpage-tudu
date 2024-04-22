@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Button from "../button/index";
 import Input from "../input";
 import Select from "../select";
@@ -15,6 +16,7 @@ const Contato = () => {
             </div>
             <div className={Styles.form}>
                 <h3>Fale com um especialista</h3>
+
                 <form>
                     <Input type="text" placeholder="Nome completo" required />
                     <Input type="email" placeholder="E-mail profissional" required />
@@ -26,16 +28,25 @@ const Contato = () => {
                     />
                     <Input type="url" placeholder="Site" required />
                     <Select
-                     placeholder="Orçamento para mídia" 
-                     options={[
-                        { label: "Instagram", value: "instagram" },
-                        { label: "Facebook", value: "facebook" },
-                    ]}
+                        placeholder="Orçamento para mídia"
+                        options={[
+                            { label: "Instagram", value: "instagram" },
+                            { label: "Facebook", value: "facebook" },
+                        ]}
                         required
                     />
 
-                    <Button title="Enviar" kind="full"/>
+                    <Button title="Enviar" kind="full" />
                 </form>
+            </div>
+            <div className={Styles.footer}>
+                <p>
+                    Ao enviar esse formulário, você reconhece que leu e concorda com a nossa
+                    <Link href="/">
+                        <span> Política de Privacidade.</span>
+                    </Link>
+                </p>
+
             </div>
         </div>
     );
