@@ -15,12 +15,12 @@ export default function Home() {
 
          <main>
             <Welcome />
-            <Features />
-            <Contato />
+            {/* <Features /> */}
+            {/* <Contato /> */}
          </main>
 
          <footer>
-            <Footer />
+            {/* <Footer /> */}
          </footer>
       </div>
    );

@@ -8,8 +8,8 @@ import Button from "../button";
 const Header = () => {
     return (
     <div className={Styles.container}>
-        <div className={Styles.Logotipo}>
-        <Image src={Logo} alt="Logo" width={150} height={100}/>
+        <div className={Styles.logotipo}>
+        <Image src={Logo} alt="Logo" width={140} height={100}/>
         </div>
         <div className={Styles.menu}>
             <Link href="/">Home</Link>
@@ -22,6 +22,6 @@ const Header = () => {
         </div>
     </div>
     );
-}
+};
 
-export default Header
+export default Header;
